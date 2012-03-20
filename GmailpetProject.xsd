@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xsd:schema xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:GmailpetProject_ns="http://www.convertigo.com/convertigo/projects/GmailpetProject" attributeFormDefault="qualified" elementFormDefault="qualified" targetNamespace="http://www.convertigo.com/convertigo/projects/GmailpetProject">
+<xsd:complexType name="ConvertigoErrorContext">
+<xsd:sequence>
+<xsd:element maxOccurs="unbounded" minOccurs="0" name="variable" type="GmailpetProject_ns:ConvertigoErrorContextVariable"/>
+</xsd:sequence>
+</xsd:complexType>
+<xsd:complexType name="ConvertigoError">
+<xsd:sequence>
+<xsd:element name="context" type="GmailpetProject_ns:ConvertigoErrorContext"/>
+<xsd:element name="exception" type="xsd:string"/>
+<xsd:element name="message" type="xsd:string"/>
+<xsd:element name="stacktrace" type="xsd:string"/>
+</xsd:sequence>
+</xsd:complexType>
+<xsd:complexType name="ConvertigoErrorContextVariable">
+<xsd:attribute name="name" type="xsd:string"/>
+<xsd:attribute name="value" type="xsd:string"/>
+</xsd:complexType>
+<xsd:element name="GmailpetProjectConnector__search" type="GmailpetProject_ns:GmailpetProjectConnector__searchRequestData">
+<xsd:annotation/>
+</xsd:element>
+<xsd:element name="GmailpetProjectConnector__searchResponse">
+<xsd:complexType>
+<xsd:sequence>
+<xsd:element name="response" type="GmailpetProject_ns:GmailpetProjectConnector__searchResponseData"/>
+</xsd:sequence>
+</xsd:complexType>
+</xsd:element>
+<xsd:complexType name="GmailpetProjectConnector__searchRequestData">
+<xsd:annotation/>
+<xsd:sequence>
+<xsd:element name="mailVar" type="xsd:string">
+<xsd:annotation>
+<xsd:appinfo>new variable</xsd:appinfo>
+</xsd:annotation>
+</xsd:element>
+</xsd:sequence>
+</xsd:complexType>
+<xsd:complexType name="GmailpetProjectConnector__searchResponseData">
+<xsd:sequence>
+<xsd:element minOccurs="0" name="error" type="GmailpetProject_ns:ConvertigoError"/>
+<xsd:any minOccurs="0" namespace="##any"/>
+<xsd:element maxOccurs="unbounded" minOccurs="0" name="mailDetails" type="GmailpetProject_ns:mailDetailsTableType"/>
+</xsd:sequence>
+</xsd:complexType>
+<xsd:element name="GmailpetProjectConnector__start" type="GmailpetProject_ns:GmailpetProjectConnector__startRequestData">
+<xsd:annotation/>
+</xsd:element>
+<xsd:element name="GmailpetProjectConnector__startResponse">
+<xsd:complexType>
+<xsd:sequence>
+<xsd:element name="response" type="GmailpetProject_ns:GmailpetProjectConnector__startResponseData"/>
+</xsd:sequence>
+</xsd:complexType>
+</xsd:element>
+<xsd:complexType name="GmailpetProjectConnector__startRequestData">
+<xsd:annotation/>
+<xsd:sequence/>
+</xsd:complexType>
+<xsd:complexType name="GmailpetProjectConnector__startResponseData"/>
+<xsd:element name="GmailpetProjectConnector__login" type="GmailpetProject_ns:GmailpetProjectConnector__loginRequestData">
+<xsd:annotation/>
+</xsd:element>
+<xsd:element name="GmailpetProjectConnector__loginResponse">
+<xsd:complexType>
+<xsd:sequence>
+<xsd:element name="response" type="GmailpetProject_ns:GmailpetProjectConnector__loginResponseData"/>
+</xsd:sequence>
+</xsd:complexType>
+</xsd:element>
+<xsd:complexType name="GmailpetProjectConnector__loginRequestData">
+<xsd:annotation/>
+<xsd:sequence>
+<xsd:element name="user" type="xsd:string">
+<xsd:annotation>
+<xsd:appinfo>new variable</xsd:appinfo>
+</xsd:annotation>
+</xsd:element>
+<xsd:element name="password" type="xsd:string">
+<xsd:annotation>
+<xsd:appinfo>new variable</xsd:appinfo>
+</xsd:annotation>
+</xsd:element>
+</xsd:sequence>
+</xsd:complexType>
+<xsd:complexType name="GmailpetProjectConnector__loginResponseData">
+<xsd:sequence>
+<xsd:element minOccurs="0" name="error" type="GmailpetProject_ns:ConvertigoError"/>
+<xsd:any minOccurs="0" namespace="##any"/>
+<xsd:element maxOccurs="unbounded" minOccurs="0" name="mailDetails" type="GmailpetProject_ns:mailDetailsTableType"/>
+</xsd:sequence>
+</xsd:complexType>
+</xsd:schema>

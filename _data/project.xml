@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+
+<project classname="com.twinsoft.convertigo.beans.core.Project" priority="0" version="6.1.0.m004">
+    <property name="browserDefinitions">
+        <xmlizable classname="com.twinsoft.convertigo.beans.common.XMLVector">
+            <com.twinsoft.convertigo.beans.common.XMLVector/>
+        </xmlizable>
+    </property>
+    <property name="comment">
+        <java.lang.String value="Web Integration project"/>
+    </property>
+    <property name="httpSessionTimeout">
+        <java.lang.Integer value="300"/>
+    </property>
+    <property name="name">
+        <java.lang.String value="GmailpetProject"/>
+    </property>
+    <property name="namespaceUri">
+        <java.lang.String value=""/>
+    </property>
+    <property name="schemaElementForm">
+        <java.lang.String value="qualified"/>
+    </property>
+    <property name="schemaInline">
+        <java.lang.Boolean value="true"/>
+    </property>
+    <property name="wsdlStyle">
+        <java.lang.String value="DOC/LITERAL"/>
+    </property>
+</project>

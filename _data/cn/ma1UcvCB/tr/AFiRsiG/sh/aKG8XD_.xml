@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+
+<sheet classname="com.twinsoft.convertigo.beans.core.Sheet" priority="0" version="6.1.0.m004">
+    <property name="browser">
+        <java.lang.String value="*"/>
+    </property>
+    <property name="comment">
+        <java.lang.String value=""/>
+    </property>
+    <property name="name">
+        <java.lang.String value="petProject"/>
+    </property>
+    <property name="url">
+        <java.lang.String value="petProject.xsl"/>
+    </property>
+</sheet>

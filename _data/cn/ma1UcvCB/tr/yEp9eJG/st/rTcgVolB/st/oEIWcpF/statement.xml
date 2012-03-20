@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+
+<statement classname="com.twinsoft.convertigo.beans.statements.MouseStatement" newPriority="1332223764666" priority="1332223764666" version="6.1.0.m004">
+    <property name="action">
+        <java.lang.String value="click"/>
+    </property>
+    <property name="comment">
+        <java.lang.String value=""/>
+    </property>
+    <property name="isEnable">
+        <java.lang.Boolean value="true"/>
+    </property>
+    <property name="name">
+        <java.lang.String value="click"/>
+    </property>
+    <property name="trigger">
+        <xmlizable classname="com.twinsoft.convertigo.engine.parsers.triggers.TriggerXMLizer">
+            <com.twinsoft.convertigo.engine.parsers.triggers.TriggerXMLizer>
+                <timeout>
+                    <java.lang.Long value="6000"/>
+                </timeout>
+                <classname>
+                    <java.lang.String value="com.twinsoft.convertigo.engine.parsers.triggers.WaitTimeTrigger"/>
+                </classname>
+                <dodirty>
+                    <java.lang.String value="true"/>
+                </dodirty>
+            </com.twinsoft.convertigo.engine.parsers.triggers.TriggerXMLizer>
+        </xmlizable>
+    </property>
+    <property name="xpath">
+        <java.lang.String value="'//INPUT[@id=&quot;signIn&quot;]'"/>
+    </property>
+</statement>

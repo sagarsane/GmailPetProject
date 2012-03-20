@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+
+<statement classname="com.twinsoft.convertigo.beans.statements.MouseStatement" newPriority="1332278806655" priority="1332278806655" version="6.1.0.m004">
+    <property name="action">
+        <java.lang.String value="click"/>
+    </property>
+    <property name="comment">
+        <java.lang.String value=""/>
+    </property>
+    <property name="isEnable">
+        <java.lang.Boolean value="true"/>
+    </property>
+    <property name="name">
+        <java.lang.String value="searchClick1"/>
+    </property>
+    <property name="trigger">
+        <xmlizable classname="com.twinsoft.convertigo.engine.parsers.triggers.TriggerXMLizer">
+            <com.twinsoft.convertigo.engine.parsers.triggers.TriggerXMLizer>
+                <timeout>
+                    <java.lang.Long value="3000"/>
+                </timeout>
+                <classname>
+                    <java.lang.String value="com.twinsoft.convertigo.engine.parsers.triggers.WaitTimeTrigger"/>
+                </classname>
+                <dodirty>
+                    <java.lang.String value="true"/>
+                </dodirty>
+            </com.twinsoft.convertigo.engine.parsers.triggers.TriggerXMLizer>
+        </xmlizable>
+    </property>
+    <property name="xpath">
+        <java.lang.String value="'//IMG[@src=&quot;/mail/u/0/images/expand_icon.gif&quot;]'"/>
+    </property>
+</statement>

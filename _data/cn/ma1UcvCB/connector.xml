@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+
+<connector classname="com.twinsoft.convertigo.beans.connectors.HtmlConnector" default="true" priority="0" version="6.1.0.m004">
+    <property name="baseDir">
+        <java.lang.String value="/"/>
+    </property>
+    <property name="basicPassword">
+        <java.lang.String value=""/>
+    </property>
+    <property name="basicUser">
+        <java.lang.String value=""/>
+    </property>
+    <property name="billingClassName">
+        <java.lang.String value=""/>
+    </property>
+    <property name="comment">
+        <java.lang.String value=""/>
+    </property>
+    <property name="endTransactionName">
+        <java.lang.String value=""/>
+    </property>
+    <property name="httpHeaderForward">
+        <xmlizable classname="com.twinsoft.convertigo.beans.common.XMLVector">
+            <com.twinsoft.convertigo.beans.common.XMLVector/>
+        </xmlizable>
+    </property>
+    <property name="https">
+        <java.lang.Boolean value="false"/>
+    </property>
+    <property name="ignoreEmptyAttributes">
+        <java.lang.Boolean value="true"/>
+    </property>
+    <property name="isTasAuthenticationRequired">
+        <java.lang.Boolean value="false"/>
+    </property>
+    <property name="name">
+        <java.lang.String value="GmailpetProjectConnector"/>
+    </property>
+    <property name="parseMode">
+        <java.lang.String value="4.5"/>
+    </property>
+    <property name="port">
+        <java.lang.Integer value="80"/>
+    </property>
+    <property name="server">
+        <java.lang.String value="accounts.google.com/ServiceLogin?service=mail&amp;passive=true&amp;rm=false&amp;continue=https://mail.google.com/mail/?tab%3Dwm&amp;scc=1&amp;ltmpl=default&amp;ltmplcache=2"/>
+    </property>
+    <property name="trustAllServerCertificates">
+        <java.lang.Boolean value="true"/>
+    </property>
+</connector>

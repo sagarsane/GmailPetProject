@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<wsdl:definitions name="GmailpetProject" targetNamespace="http://www.convertigo.com/convertigo/projects/GmailpetProject" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:GmailpetProject_ns="http://www.convertigo.com/convertigo/projects/GmailpetProject" xmlns:soap="http://schemas.xmlsoap.org/wsdl/soap/" xmlns:wsdl="http://schemas.xmlsoap.org/wsdl/" xmlns:soapenc="http://schemas.xmlsoap.org/soap/encoding/">
+  <wsdl:types>
+    <xsd:schema targetNamespace="http://www.convertigo.com/convertigo/projects/GmailpetProject"><xsd:include schemaLocation="GmailpetProject.xsd"/></xsd:schema>
+  </wsdl:types>
+  <wsdl:portType name="GmailpetProjectPortType">
+  </wsdl:portType>
+  <wsdl:binding name="GmailpetProjectSOAPBinding" type="GmailpetProject_ns:GmailpetProjectPortType">
+    <soap:binding style="document" transport="http://schemas.xmlsoap.org/soap/http"/>
+  </wsdl:binding>
+  <wsdl:service name="GmailpetProject">
+    <wsdl:port name="GmailpetProjectSOAP" binding="GmailpetProject_ns:GmailpetProjectSOAPBinding">
+      <soap:address location="http://localhost:18080/convertigo/projects/GmailpetProject/.wsl"/>
+    </wsdl:port>
+  </wsdl:service>
+</wsdl:definitions>

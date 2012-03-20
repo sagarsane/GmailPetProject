@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+
+<criteria classname="com.twinsoft.convertigo.beans.common.XPath" newPriority="1332278968809" priority="1332278968809" version="6.1.0.m004">
+    <property name="comment">
+        <java.lang.String value=""/>
+    </property>
+    <property name="name">
+        <java.lang.String value="XPath"/>
+    </property>
+    <property name="reverseResult">
+        <java.lang.Boolean value="false"/>
+    </property>
+    <property name="xpath">
+        <java.lang.String value="//IMG[@src=&quot;/mail/u/0/images/print_icon.gif&quot;]"/>
+    </property>
+</criteria>

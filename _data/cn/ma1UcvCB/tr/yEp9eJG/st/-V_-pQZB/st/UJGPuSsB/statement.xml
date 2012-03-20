@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+
+<statement classname="com.twinsoft.convertigo.beans.statements.NavigationBarStatement" newPriority="1332282909111" priority="1332282909111" version="6.1.0.m004">
+    <property name="action">
+        <java.lang.String value="goTo"/>
+    </property>
+    <property name="comment">
+        <java.lang.String value=""/>
+    </property>
+    <property name="isEnable">
+        <java.lang.Boolean value="true"/>
+    </property>
+    <property name="jsUrl">
+        <java.lang.String value="&quot;http://accounts.google.com/ServiceLogin?service=mail&amp;passive=true&amp;rm=false&amp;continue=https://mail.google.com/mail/?tab%3Dwm&amp;scc=1&amp;ltmpl=default&amp;ltmplcache=2&quot;"/>
+    </property>
+    <property name="name">
+        <java.lang.String value="gotoLogin"/>
+    </property>
+    <property name="trigger">
+        <xmlizable classname="com.twinsoft.convertigo.engine.parsers.triggers.TriggerXMLizer">
+            <com.twinsoft.convertigo.engine.parsers.triggers.TriggerXMLizer>
+                <timeout>
+                    <java.lang.Long value="4000"/>
+                </timeout>
+                <classname>
+                    <java.lang.String value="com.twinsoft.convertigo.engine.parsers.triggers.WaitTimeTrigger"/>
+                </classname>
+                <dodirty>
+                    <java.lang.String value="false"/>
+                </dodirty>
+            </com.twinsoft.convertigo.engine.parsers.triggers.TriggerXMLizer>
+        </xmlizable>
+    </property>
+</statement>

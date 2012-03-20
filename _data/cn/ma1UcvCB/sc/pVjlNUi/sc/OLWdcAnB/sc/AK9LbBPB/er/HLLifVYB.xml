@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+
+<extractionrule classname="com.twinsoft.convertigo.beans.common.XMLTable" newPriority="1332279754445" priority="1332279754445" version="6.1.0.m004">
+    <property name="accumulateDataInSameTable">
+        <java.lang.Boolean value="false"/>
+    </property>
+    <property name="comment">
+        <java.lang.String value=""/>
+    </property>
+    <property name="description">
+        <xmlizable classname="com.twinsoft.convertigo.beans.common.XMLVector">
+            <com.twinsoft.convertigo.beans.common.XMLVector>
+                <xmlizable classname="com.twinsoft.convertigo.beans.common.XMLVector">
+                    <com.twinsoft.convertigo.beans.common.XMLVector>
+                        <java.lang.String value="mail"/>
+                        <java.lang.String value="./TABLE[position()&gt;3]"/>
+                        <xmlizable classname="com.twinsoft.convertigo.beans.common.XMLVector">
+                            <com.twinsoft.convertigo.beans.common.XMLVector>
+                                <xmlizable classname="com.twinsoft.convertigo.beans.common.XMLVector">
+                                    <com.twinsoft.convertigo.beans.common.XMLVector>
+                                        <java.lang.String value="from"/>
+                                        <java.lang.String value="./TBODY/TR/TD/TABLE/TBODY/TR[1]/TD[1]/H3[1]/A/FONT/B"/>
+                                        <java.lang.Boolean value="true"/>
+                                    </com.twinsoft.convertigo.beans.common.XMLVector>
+                                </xmlizable>
+                                <xmlizable classname="com.twinsoft.convertigo.beans.common.XMLVector">
+                                    <com.twinsoft.convertigo.beans.common.XMLVector>
+                                        <java.lang.String value="links"/>
+                                        <java.lang.String value="./TBODY/TR/TD/TABLE/TBODY/TR[4]/TD/DIV/TABLE/TBODY/TR[position()&gt;0]/TD/TABLE/TBODY/TR/TD[3]/A/@href"/>
+                                        <java.lang.Boolean value="true"/>
+                                    </com.twinsoft.convertigo.beans.common.XMLVector>
+                                </xmlizable>
+                            </com.twinsoft.convertigo.beans.common.XMLVector>
+                        </xmlizable>
+                    </com.twinsoft.convertigo.beans.common.XMLVector>
+                </xmlizable>
+            </com.twinsoft.convertigo.beans.common.XMLVector>
+        </xmlizable>
+    </property>
+    <property name="displayReferer">
+        <java.lang.Boolean value="false"/>
+    </property>
+    <property name="flipTable">
+        <java.lang.Boolean value="false"/>
+    </property>
+    <property name="isEnabled">
+        <java.lang.Boolean value="true"/>
+    </property>
+    <property name="name">
+        <java.lang.String value="mailDetails"/>
+    </property>
+    <property name="tagName">
+        <java.lang.String value="mailDetails"/>
+    </property>
+    <property name="xpath">
+        <java.lang.String value="HTML/BODY/TABLE[3]/TBODY/TR/TD[2]/TABLE[1]/TBODY/TR/TD[2]"/>
+    </property>
+</extractionrule>

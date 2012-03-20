@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+
+<statement classname="com.twinsoft.convertigo.beans.statements.ScEntryHandlerStatement" handlePriorities="true" newPriority="0" priority="0" version="6.1.0.m004">
+    <property name="comment">
+        <java.lang.String value=""/>
+    </property>
+    <property name="handlerLoopable">
+        <java.lang.Boolean value="true"/>
+    </property>
+    <property name="handlerResult">
+        <java.lang.String value="redetect"/>
+    </property>
+    <property name="handlerType">
+        <java.lang.String value="Entry"/>
+    </property>
+    <property name="isEnable">
+        <java.lang.Boolean value="true"/>
+    </property>
+    <property name="name">
+        <java.lang.String value="onloginScreenEntry"/>
+    </property>
+    <property name="normalizedScreenClassName">
+        <java.lang.String value="loginScreen"/>
+    </property>
+    <property name="orderedStatements">
+        <xmlizable classname="com.twinsoft.convertigo.beans.common.XMLVector">
+            <com.twinsoft.convertigo.beans.common.XMLVector>
+                <xmlizable classname="com.twinsoft.convertigo.beans.common.XMLVector">
+                    <com.twinsoft.convertigo.beans.common.XMLVector>
+                        <java.lang.Long value="1332223599454"/>
+                        <java.lang.Long value="1332223605593"/>
+                        <java.lang.Long value="1332223764666"/>
+                    </com.twinsoft.convertigo.beans.common.XMLVector>
+                </xmlizable>
+            </com.twinsoft.convertigo.beans.common.XMLVector>
+        </xmlizable>
+    </property>
+</statement>

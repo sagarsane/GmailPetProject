@@ -1,0 +1,105 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+
+<transaction classname="com.twinsoft.convertigo.beans.transactions.HtmlTransaction" default="false" handlePriorities="true" priority="0" version="6.1.0.m004">
+    <property name="bIncludeCertificateGroup">
+        <java.lang.Boolean value="false"/>
+    </property>
+    <property name="billable">
+        <java.lang.Boolean value="false"/>
+    </property>
+    <property name="clientCachable">
+        <java.lang.Boolean value="false"/>
+    </property>
+    <property name="comment">
+        <java.lang.String value=""/>
+    </property>
+    <property name="dataEncoding">
+        <java.lang.Integer value="0"/>
+    </property>
+    <property name="encodingCharSet">
+        <java.lang.String value="UTF-8"/>
+    </property>
+    <property name="handleCookie">
+        <java.lang.Boolean value="true"/>
+    </property>
+    <property name="httpParameters">
+        <xmlizable classname="com.twinsoft.convertigo.beans.common.XMLVector">
+            <com.twinsoft.convertigo.beans.common.XMLVector>
+                <xmlizable classname="com.twinsoft.convertigo.beans.common.XMLVector">
+                    <com.twinsoft.convertigo.beans.common.XMLVector>
+                        <java.lang.String value="Content-Type"/>
+                        <java.lang.String value="application/x-www-form-urlencoded"/>
+                    </com.twinsoft.convertigo.beans.common.XMLVector>
+                </xmlizable>
+            </com.twinsoft.convertigo.beans.common.XMLVector>
+        </xmlizable>
+    </property>
+    <property name="httpVerb">
+        <java.lang.Integer value="0"/>
+    </property>
+    <property name="includedTagAttributes">
+        <array classname="boolean" length="11">
+            <java.lang.Boolean value="true"/>
+            <java.lang.Boolean value="true"/>
+            <java.lang.Boolean value="true"/>
+            <java.lang.Boolean value="true"/>
+            <java.lang.Boolean value="true"/>
+            <java.lang.Boolean value="true"/>
+            <java.lang.Boolean value="true"/>
+            <java.lang.Boolean value="true"/>
+            <java.lang.Boolean value="true"/>
+            <java.lang.Boolean value="true"/>
+            <java.lang.Boolean value="true"/>
+        </array>
+    </property>
+    <property name="name">
+        <java.lang.String value="start"/>
+    </property>
+    <property name="orderedVariables">
+        <xmlizable classname="com.twinsoft.convertigo.beans.common.XMLVector">
+            <com.twinsoft.convertigo.beans.common.XMLVector>
+                <xmlizable classname="com.twinsoft.convertigo.beans.common.XMLVector">
+                    <com.twinsoft.convertigo.beans.common.XMLVector/>
+                </xmlizable>
+            </com.twinsoft.convertigo.beans.common.XMLVector>
+        </xmlizable>
+    </property>
+    <property name="publicMethod">
+        <java.lang.Boolean value="false"/>
+    </property>
+    <property name="requestTemplate">
+        <java.lang.String value=""/>
+    </property>
+    <property name="responseExpiryDate">
+        <java.lang.String value=""/>
+    </property>
+    <property name="responseTimeout">
+        <java.lang.Long value="60"/>
+    </property>
+    <property name="sheetLocation">
+        <java.lang.Integer value="0"/>
+    </property>
+    <property name="stateFull">
+        <java.lang.Boolean value="false"/>
+    </property>
+    <property name="subDir">
+        <java.lang.String value=""/>
+    </property>
+    <property name="trigger">
+        <xmlizable classname="com.twinsoft.convertigo.engine.parsers.triggers.TriggerXMLizer">
+            <com.twinsoft.convertigo.engine.parsers.triggers.TriggerXMLizer>
+                <timeout>
+                    <java.lang.Long value="60000"/>
+                </timeout>
+                <classname>
+                    <java.lang.String value="com.twinsoft.convertigo.engine.parsers.triggers.DocumentCompletedTrigger"/>
+                </classname>
+                <count>
+                    <java.lang.Integer value="1"/>
+                </count>
+            </com.twinsoft.convertigo.engine.parsers.triggers.TriggerXMLizer>
+        </xmlizable>
+    </property>
+    <wsdltype/>
+    <handlers><![CDATA[// handlers are handled by Statements for HTML Transaction.]]></handlers>
+</transaction>

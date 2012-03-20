@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+
+<extractionrule classname="com.twinsoft.convertigo.beans.common.XMLNode" newPriority="1332279505395" priority="1332279505395" version="6.1.0.m004">
+    <property name="comment">
+        <java.lang.String value=""/>
+    </property>
+    <property name="isEnabled">
+        <java.lang.Boolean value="true"/>
+    </property>
+    <property name="name">
+        <java.lang.String value="mailTitle"/>
+    </property>
+    <property name="xpath">
+        <java.lang.String value="HTML/BODY/TABLE[3]/TBODY/TR/TD[2]/TABLE[1]/TBODY/TR/TD[2]/TABLE[3]/TBODY/TR/TD/H2/FONT/B"/>
+    </property>
+</extractionrule>
