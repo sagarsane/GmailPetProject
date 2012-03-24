@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+
+<step classname="com.twinsoft.convertigo.beans.steps.XMLCopyStep" newPriority="1332559403386" priority="1332559403386" version="6.1.0.m004">
+    <property name="comment">
+        <java.lang.String value=""/>
+    </property>
+    <property name="isEnable">
+        <java.lang.Boolean value="true"/>
+    </property>
+    <property name="name">
+        <java.lang.String value="dataCopy"/>
+    </property>
+    <property name="output">
+        <java.lang.Boolean value="true"/>
+    </property>
+    <property name="schemaDataType">
+        <java.lang.String value="xsd:string"/>
+    </property>
+    <property name="sourceDefinition">
+        <xmlizable classname="com.twinsoft.convertigo.beans.common.XMLVector">
+            <com.twinsoft.convertigo.beans.common.XMLVector>
+                <java.lang.String value="1332559373691"/>
+                <java.lang.String value="./transaction/document/mailDetails"/>
+            </com.twinsoft.convertigo.beans.common.XMLVector>
+        </xmlizable>
+    </property>
+</step>

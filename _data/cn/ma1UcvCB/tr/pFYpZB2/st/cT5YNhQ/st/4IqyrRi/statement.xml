@@ -5,7 +5,7 @@
         <java.lang.String value=""/>
     </property>
     <property name="expression">
-        <java.lang.String value="&quot;from: (awaghade.mayur@gmail.com) has:attachment&quot;"/>
+        <java.lang.String value="&quot;from: (&quot; + email + &quot;) has:attachment&quot;"/>
     </property>
     <property name="isEnable">
         <java.lang.Boolean value="true"/>

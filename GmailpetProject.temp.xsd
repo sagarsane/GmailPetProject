@@ -17,6 +17,54 @@
 <xsd:attribute name="name" type="xsd:string"/>
 <xsd:attribute name="value" type="xsd:string"/>
 </xsd:complexType>
+<xsd:element name="GmailpetProjectConnector__start" type="GmailpetProject_ns:GmailpetProjectConnector__startRequestData">
+<xsd:annotation/>
+</xsd:element>
+<xsd:element name="GmailpetProjectConnector__startResponse">
+<xsd:complexType>
+<xsd:sequence>
+<xsd:element name="response" type="GmailpetProject_ns:GmailpetProjectConnector__startResponseData"/>
+</xsd:sequence>
+</xsd:complexType>
+</xsd:element>
+<xsd:complexType name="GmailpetProjectConnector__startRequestData">
+<xsd:annotation/>
+<xsd:sequence/>
+</xsd:complexType>
+<xsd:complexType name="GmailpetProjectConnector__startResponseData"/>
+<xsd:element name="callGmail" type="GmailpetProject_ns:callGmailRequestData">
+<xsd:annotation/>
+</xsd:element>
+<xsd:element name="callGmailResponse">
+<xsd:complexType>
+<xsd:sequence>
+<xsd:element name="response" type="GmailpetProject_ns:callGmailResponseData"/>
+</xsd:sequence>
+</xsd:complexType>
+</xsd:element>
+<xsd:complexType name="callGmailRequestData">
+<xsd:annotation/>
+<xsd:sequence/>
+</xsd:complexType>
+<xsd:complexType name="callGmailResponseData">
+<xsd:sequence/>
+</xsd:complexType>
+<xsd:complexType name="transaction1332559373691StepType">
+<xsd:annotation/>
+<xsd:sequence>
+<xsd:element minOccurs="0" name="document" type="GmailpetProject_ns:GmailpetProjectConnector__searchResponseData">
+<xsd:annotation/>
+</xsd:element>
+</xsd:sequence>
+</xsd:complexType>
+<xsd:complexType name="transaction1332559344877StepType">
+<xsd:annotation/>
+<xsd:sequence>
+<xsd:element minOccurs="0" name="document" type="GmailpetProject_ns:GmailpetProjectConnector__loginResponseData">
+<xsd:annotation/>
+</xsd:element>
+</xsd:sequence>
+</xsd:complexType>
 <xsd:element name="GmailpetProjectConnector__search" type="GmailpetProject_ns:GmailpetProjectConnector__searchRequestData">
 <xsd:annotation/>
 </xsd:element>
@@ -35,6 +83,11 @@
 <xsd:appinfo>new variable</xsd:appinfo>
 </xsd:annotation>
 </xsd:element>
+<xsd:element name="email" type="xsd:string">
+<xsd:annotation>
+<xsd:appinfo>new variable</xsd:appinfo>
+</xsd:annotation>
+</xsd:element>
 </xsd:sequence>
 </xsd:complexType>
 <xsd:complexType name="GmailpetProjectConnector__searchResponseData">
@@ -44,21 +97,6 @@
 <xsd:element maxOccurs="unbounded" minOccurs="0" name="mailDetails" type="GmailpetProject_ns:mailDetailsTableType"/>
 </xsd:sequence>
 </xsd:complexType>
-<xsd:element name="GmailpetProjectConnector__start" type="GmailpetProject_ns:GmailpetProjectConnector__startRequestData">
-<xsd:annotation/>
-</xsd:element>
-<xsd:element name="GmailpetProjectConnector__startResponse">
-<xsd:complexType>
-<xsd:sequence>
-<xsd:element name="response" type="GmailpetProject_ns:GmailpetProjectConnector__startResponseData"/>
-</xsd:sequence>
-</xsd:complexType>
-</xsd:element>
-<xsd:complexType name="GmailpetProjectConnector__startRequestData">
-<xsd:annotation/>
-<xsd:sequence/>
-</xsd:complexType>
-<xsd:complexType name="GmailpetProjectConnector__startResponseData"/>
 <xsd:element name="GmailpetProjectConnector__login" type="GmailpetProject_ns:GmailpetProjectConnector__loginRequestData">
 <xsd:annotation/>
 </xsd:element>

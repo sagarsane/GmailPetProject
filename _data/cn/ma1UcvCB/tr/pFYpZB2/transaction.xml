@@ -61,6 +61,7 @@
                 <xmlizable classname="com.twinsoft.convertigo.beans.common.XMLVector">
                     <com.twinsoft.convertigo.beans.common.XMLVector>
                         <java.lang.Long value="1332278639617"/>
+                        <java.lang.Long value="1332565095783"/>
                     </com.twinsoft.convertigo.beans.common.XMLVector>
                 </xmlizable>
             </com.twinsoft.convertigo.beans.common.XMLVector>

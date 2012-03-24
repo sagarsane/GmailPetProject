@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+
+<step classname="com.twinsoft.convertigo.beans.steps.TransactionStep" newPriority="1332559344877" priority="1332559344877" version="6.1.0.m004">
+    <property name="bInternalInvoke">
+        <java.lang.Boolean value="true"/>
+    </property>
+    <property name="comment">
+        <java.lang.String value=""/>
+    </property>
+    <property name="connectionStringDefinition">
+        <xmlizable classname="com.twinsoft.convertigo.beans.common.XMLVector">
+            <com.twinsoft.convertigo.beans.common.XMLVector/>
+        </xmlizable>
+    </property>
+    <property name="contextName">
+        <java.lang.String value=""/>
+    </property>
+    <property name="isEnable">
+        <java.lang.Boolean value="true"/>
+    </property>
+    <property name="name">
+        <java.lang.String value="callLogin"/>
+    </property>
+    <property name="orderedVariables">
+        <xmlizable classname="com.twinsoft.convertigo.beans.common.XMLVector">
+            <com.twinsoft.convertigo.beans.common.XMLVector>
+                <xmlizable classname="com.twinsoft.convertigo.beans.common.XMLVector">
+                    <com.twinsoft.convertigo.beans.common.XMLVector/>
+                </xmlizable>
+            </com.twinsoft.convertigo.beans.common.XMLVector>
+        </xmlizable>
+    </property>
+    <property name="output">
+        <java.lang.Boolean value="false"/>
+    </property>
+    <property name="schemaDataType">
+        <java.lang.String value="xsd:string"/>
+    </property>
+    <property name="sourceTransaction">
+        <java.lang.String value="GmailpetProject.GmailpetProjectConnector.login"/>
+    </property>
+    <wsdltype/>
+</step>

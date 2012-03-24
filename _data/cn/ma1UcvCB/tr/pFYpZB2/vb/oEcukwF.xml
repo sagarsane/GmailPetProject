@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+
+<variable classname="com.twinsoft.convertigo.beans.variables.RequestableHttpVariable" newPriority="1332565095783" priority="1332565095783" version="6.1.0.m004">
+    <property name="bSoapArray">
+        <java.lang.Boolean value="false"/>
+    </property>
+    <property name="cachedKey">
+        <java.lang.Boolean value="true"/>
+    </property>
+    <property name="comment">
+        <java.lang.String value=""/>
+    </property>
+    <property name="description">
+        <java.lang.String value="new variable"/>
+    </property>
+    <property name="httpMethod">
+        <java.lang.String value="POST"/>
+    </property>
+    <property name="httpName">
+        <java.lang.String value=""/>
+    </property>
+    <property name="name">
+        <java.lang.String value="email"/>
+    </property>
+    <property name="personalizable">
+        <java.lang.Boolean value="false"/>
+    </property>
+    <property name="schemaType">
+        <java.lang.String value="xsd:string"/>
+    </property>
+    <property isNull="false" name="value">
+        <java.lang.String value="awaghade.mayur@gmail.com"/>
+    </property>
+    <property name="visibility">
+        <java.lang.Integer value="0"/>
+    </property>
+    <property name="wsdl">
+        <java.lang.Boolean value="true"/>
+    </property>
+</variable>
