@@ -1,1 +1,7 @@
-My First Pet Project :) ... Extracting Download Links by Searching for emails from a particular person and then recursively going through the emails and extracting Attachment links. Then, give any Web Interface you want! :) .. (Mobile, Web, incorporate in any other project!!).. And yes, using Convertigo for extracting the attachment links (www.convertigo.com)
+My First Pet Project :) ... Extracting Download Links by Searching for emails from a 
+particular person and then recursively going through the emails and extracting Attachment links. 
+Then, give any Web Interface you want! :) .. (Mobile, Web, incorporate in any other project!!).. 
+And yes, using Convertigo for extracting the attachment links (www.convertigo.com)
+
+
+*To do: check this for better web-scraping: http://stackoverflow.com/questions/125177/whats-a-good-tool-to-screen-scrape-with-javascript-support
